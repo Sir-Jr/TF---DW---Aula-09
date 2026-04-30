@@ -4,8 +4,6 @@ const { Pool } = pg;
 
 export default (() => {
 
-
-
     let connection = null;
 
     const connect = () => {
